@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS comments
 (
-    id                          VARCHAR(255),
+    id                          VARCHAR(255) NOT NULL,
     archived                    BOOLEAN,
     author                      VARCHAR(255),
     author_created_utc          BIGINT,
