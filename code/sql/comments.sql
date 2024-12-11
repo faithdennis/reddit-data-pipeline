@@ -4,11 +4,15 @@ CREATE TABLE IF NOT EXISTS comments
     archived                    BOOLEAN,
     author                      VARCHAR(255),
     author_created_utc          BIGINT,
+    author_fullname             VARCHAR(255),
     body                        TEXT,
+    controversiality            INT,
     created_utc                 BIGINT,
     downs                       INT,
     edited                      BOOLEAN,
     locked                      BOOLEAN,
+    name                        VARCHAR(255),
+    num_reports                 INTEGER,
     parent_id                   VARCHAR(255),
     permalink                   VARCHAR(255),
     retrieved_on                BIGINT,
@@ -17,6 +21,7 @@ CREATE TABLE IF NOT EXISTS comments
     subreddit_id                VARCHAR(255),
     subreddit_name_prefixed     VARCHAR(255),
     subreddit_type              VARCHAR(255),
+    total_awards_received       INT,
     updated_on                  BIGINT,
     ups                         INT
 );
