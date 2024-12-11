@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS comments
     controversiality            INT,
     created_utc                 BIGINT,
     downs                       INT,
-    edited                      BOOLEAN,
+    -- edited                      BOOLEAN,
     locked                      BOOLEAN,
     name                        VARCHAR(255),
     num_reports                 INTEGER,
