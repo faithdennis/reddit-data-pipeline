@@ -1,6 +1,3 @@
 # DATA Directory
 
-Use this directory to place any large files.
-**Everything** in this directory is excluded from git.
-
-This means that when you push to GitHub, the files will not be visible.
+Due to the size of the data and GitHub data upload limits, the data used in this project is not able to be uploaded. The data is instead provided at the link here: https://drive.google.com/drive/folders/1J0BpVTqBT5xFwslV30wg1vk81qfH_W0L?usp=drive_link
