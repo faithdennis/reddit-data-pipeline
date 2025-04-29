@@ -1,5 +1,4 @@
-# Data 101 Final Project: Database Systems Comparison
-
+Reddit Data at Scale
 ## Overview
 
 Please read the full spec on the [Data 101 Website](https://data101.org/fa24/assignments/final-project/)
@@ -8,7 +7,7 @@ Please read the full spec on the [Data 101 Website](https://data101.org/fa24/ass
 
 ## Repository Structure
 
-The final project contains this starter setup. You may adapt it as needed, but please make sure you don't commit large files which can be complicated to undo.
+The final project contains this starter setup. 
 
 ```
 .
